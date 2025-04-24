@@ -1,6 +1,6 @@
 import React from "react";
 import "./acerca.css";
-import Header from "../../components/Header/Header";
+import Header from "../../components/header/Header";
 import alexaImg from '../../assets/alexa.png';
 
 function About() {
