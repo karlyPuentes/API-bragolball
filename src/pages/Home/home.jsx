@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Header from "../../components/Header/Header";
+import Header from "../../components/header/Header";
 import Tarjetas from "../../components/Tarjetas";
 import { getAllCharacters } from "../../services/api";
 
