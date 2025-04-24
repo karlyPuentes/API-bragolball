@@ -1,0 +1,16 @@
+/* home.css */
+
+.page-home {
+    min-height: 100vh;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  

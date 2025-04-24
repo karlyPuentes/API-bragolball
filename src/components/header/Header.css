@@ -1,0 +1,95 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: linear-gradient(to right, #ff9900, #ff3300);
+   padding: 0.8rem 2rem;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+   font-family: 'Segoe UI', sans-serif;
+ }
+ 
+ .header-section.left,
+ .hombres,
+ .mujeres {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+ }
+ 
+ .header-section.center {
+   flex-grow: 1;
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .logo {
+   height: 60px;
+   max-width: 100%;
+   filter: drop-shadow(2px 2px 4px #000);
+ }
+ 
+ .home-button,
+ .filter-button {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   background-color: #222;
+   color: #fff;
+   padding: 8px 16px;
+   border: 2px solid #ffcc00;
+   border-radius: 10px;
+   font-weight: bold;
+   text-transform: uppercase;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   text-decoration: none; 
+ }
+ 
+ .home-button:hover,
+ .filter-button:hover {
+   background-color: #ffcc00;
+   color: #000;
+   transform: scale(1.05);
+ }
+ 
+ .icon {
+   font-size: 1.2rem;
+ }
+ 
+
+ @media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .header-section.center {
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  .home-button,
+  .filter-button {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .header-section.left,
+  .hombres,
+  .mujeres {
+    width: 100%;
+    justify-content: center;
+  }
+}

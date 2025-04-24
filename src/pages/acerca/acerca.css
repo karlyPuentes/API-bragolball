@@ -1,0 +1,24 @@
+.about-page {
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-content h1 {
+    color: #ff6600;
+    margin-bottom: 1rem;
+  }
+  
+  .about-content p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
