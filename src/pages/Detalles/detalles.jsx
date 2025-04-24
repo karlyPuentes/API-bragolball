@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import "./Detalles.css";
+import "./detalles.css";
 import Header from "../../components/header/Header";  
 
 function Detalles() {
